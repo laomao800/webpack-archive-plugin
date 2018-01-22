@@ -45,7 +45,7 @@ WebpackArchivePlugin.prototype.apply = function (compiler) {
 
   compiler.plugin('after-emit', function (compiler, callback) {
     const outputPath = path.resolve(compiler.options.output.path, options.output)
-    const outputFilename = options.filename || compiler.options.output.filename || path.basename(outputPath)
+    const outputFilename = options.filename || path.basename(outputPath)
     const outputPathAndFilename = path.resolve(outputPath, path.basename(outputFilename))
 
     // Build the output path folders

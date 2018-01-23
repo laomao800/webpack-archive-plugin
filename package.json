@@ -1,6 +1,6 @@
 {
   "name": "@laomao800/webpack-archive-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack plugin to create archives of emitted files.",
   "main": "index.js",
   "scripts": {},

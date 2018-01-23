@@ -11,7 +11,7 @@ Webpack plugin to create archives of emitted files.
 webpack.config.js:
 
 ```javascript
-let ArchivePlugin = require('webpack-archive-plugin');
+let ArchivePlugin = require('@laomao800/webpack-archive-plugin');
 
 module.exports = {
   // ...

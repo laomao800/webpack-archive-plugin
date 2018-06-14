@@ -4,14 +4,22 @@ Webpack plugin to create archives of emitted files.
 
 ## Installation
 
-    npm install --save-dev @laomao800/webpack-archive-plugin
+```bash
+# for webpack 4.x
+npm install --save-dev @laomao800/webpack-archive-plugin
+```
+
+```bash
+# for webpack < 4
+npm install --save-dev @laomao800/webpack-archive-plugin@1.x
+```
 
 ## Usage
 
 webpack.config.js:
 
 ```javascript
-let ArchivePlugin = require('@laomao800/webpack-archive-plugin');
+const ArchivePlugin = require('@laomao800/webpack-archive-plugin');
 
 module.exports = {
   // ...
